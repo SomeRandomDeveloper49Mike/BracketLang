@@ -1,0 +1,10 @@
+(*{Class Person} | class[{
+   ~ Fields should be declared here.
+  }
+  {
+  (*{Constructor $} | exec[{{String name} {String surname} {Int age}} {
+    ^iter[^args_to_field]
+  }])
+  
+  }
+])
